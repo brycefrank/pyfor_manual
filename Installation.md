@@ -46,7 +46,11 @@ This activates the `pyfor_env` environment, which knows to use a particular Pyth
 
 Of course, no good Python programmer is without an IDE and efficient development and analysis with `pyfor` depends on a good pick for your IDE.
 
-`pyfor` was primarily developed using the excellent PyCharm Community Edition (and Professional Edition in some cases). The latest version, 2018.2, provides direct access to an interactive `IPython` console. It is cross platform and free to use. It is, however, a bit of a heavy application. To install PyCharm go to their website and follow the installation instructions.
+### PyCharm
+
+`pyfor` was primarily developed using the excellent PyCharm Community Edition (and Professional Edition in some cases). The latest version, 2018.2, provides direct access to an interactive `IPython` console. It is cross platform and free to use. It is, however, a bit of a heavy application. If you plan on developing robust, repeat-use Python scripts and modules, I suggest this option. To install PyCharm go to their [website](https://www.jetbrains.com/pycharm/) and follow the installation instructions.
+
+### Jupyter Notebook
 
 For more lightweight analysis, I suggest taking advantage of Jupyter notebooks. Jupyter notebooks are a popular platform in data science for creating quick analysis scripts that are nicely coupled with visualization libraries (that `pyfor` takes advantage of already). If you want to use Jupyter notebooks, it does require some modification of your `conda` environment to do so, but nothing terrible complex. Below are a few instructions to get set up.
 
@@ -61,6 +65,8 @@ Then, go to a directory in which you would like to conduct analysis with your `p
 ```
 jupyter notebook
 ```
+
+### Jupyter Lab
 
 Despite Jupyter's simplicity, it is a very productive tool for routine processing tasks and interactive analysis.
 
