@@ -11,7 +11,7 @@ Before we begin, we need to download a copy of `conda`. This program will allow 
 
 What if I told you `pyfor` doesn't even need Python to run? Well, I would only be sort of correct. It turns out that `conda` will handle the installation of Python itself for us. `conda` is a multi-platform package manager that can install binaries and Python packages for us according to the operating system we are using. It also offers mechanisms for managing Python environments. An environment is an important tool for Python users, and may be a bit different for those of you coming from an R background.
 
-Imagine a scenario in which you have several projects that you are working on concurrently, all of which use different packages and different Python versions. We would want a system such that we can segregate these different set-ups into discrete partitions. This way, our packages and their dependencies will not interfere with eachother. Were you ever writing an R script and had one package mask the functionality of another because you were using the wrong version? With environments we can avoid this catastrophe. `conda` enables us to create, manage and modify environments. Another thing that is useful about environments is that I can share environments I make with someone else. In the case of `pyfor` I have already created an environment for you that has all of the required packages so you can use it. If you are curious what is required, check the contents of `pyfor/enviroment.yml`. For those of you familiar with Python you will see many familiar faces, `numpy`, `pandas`, etc.
+Imagine a scenario in which you have several projects that you are working on concurrently, all of which use different packages and different Python versions. We would want a system such that we can segregate these different set-ups into discrete partitions. This way, our packages and their dependencies will not interfere with eachother. Were you ever writing an R script and had one package mask the functionality of another because you were using the wrong version? With environments we can avoid this catastrophe. `conda` enables us to create, manage and modify environments. Another thing that is useful about environments is that I can share environments I make with someone else. In the case of `pyfor` I have already created an environment for you that has all of the required packages so you can use it. If you are curious what is required, check the contents of `pyfor/environment.yml`. For those of you familiar with Python you will see many familiar faces, `numpy`, `pandas`, etc.
 
 ## The Installation Procedure
 
@@ -63,3 +63,7 @@ jupyter notebook
 ```
 
 Despite Jupyter's simplicity, it is a very productive tool for routine processing tasks and interactive analysis.
+
+A new iteration of Jupyter notebooks is Jupyter lab, which allows for a more flexible development environment contained within your browser.
+
+[Expand on Jupyter lab]
