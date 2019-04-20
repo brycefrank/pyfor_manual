@@ -1,1 +1,1 @@
-This is the remote repository for the pyfor manual.
+As of `0.3.4` these notebooks are no longer supported. Instead, please refer to the [documentation](http://brycefrank.com/pyfor/html/index.html). All of the content of this manual has been transferred to that format.
